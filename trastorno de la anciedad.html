@@ -1,0 +1,397 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://www.comoves.unam.mx/favicon.ico" />
+<link rel="icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/assets/base/apple-touch-icon-precomposed.png"/>
+<title>Trastornos de ansiedad: la marca del miedo - Revista ¿Cómo ves? - Dirección General de Divulgación de la Ciencia de la UNAM</title>
+<meta name="description" content="Son la principal raz&oacute;n de consulta psiqui&aacute;trica en el mundo y afectan a n&ntilde;os, adolescentes y adultos." />
+<meta name="keywords" content="Ansiedad, emociones, trastorno, psicología, Revista ¿Cómo ves?, revista, ¿Cómo ves?, divulgación, ciencia, DGDC, UNAM" />
+<meta name="author" content="Roberto I. Ramírez García / José Manuel Segovia Coronel" />
+<link rel="stylesheet" href="http://www.comoves.unam.mx/css/comoves.css" type="text/css" />
+<link rel="stylesheet" href="http://www.comoves.unam.mx/js/slide/css/global.css" type="text/css" />
+<script type="text/javascript" src="http://www.comoves.unam.mx/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="http://www.comoves.unam.mx/js/slide/slides.min.jquery.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $('#slides').slides({
+            preload: true,
+            preloadImage: '/js/slide/img/loading.gif',
+            play: 5000,
+            pause: 2500,
+            hoverPause: true,
+            animationStart: function(current){
+                $('.caption').animate({
+                    bottom:-35
+                },100);
+                if (window.console && console.log) {
+                    // example return of current slide number
+                    console.log('animationStart on slide: ', current);
+                };
+            },
+            animationComplete: function(current){
+                $('.caption').animate({
+                        bottom:0
+                },200);
+                if (window.console && console.log) {
+                        // example return of current slide number
+                        console.log('animationComplete on slide: ', current);
+                };
+            },
+            slidesLoaded: function() {
+                $('.caption').animate({
+                        bottom:0
+                },200);
+            }
+        });
+
+        
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready( function() {
+	/* set variables locally for increased performance */
+	var scroll_timer;
+	var displayed = false;
+	var $message = $('#sttopmessage a');
+	var $window = $(window);
+	var top = $(document.body).children(0).position().top;
+
+	/* react to scroll event on window */
+	$window.scroll(function () {
+		window.clearTimeout(scroll_timer);
+		scroll_timer = window.setTimeout(function () { // use a timer for performance
+			if($window.scrollTop() <= top) // hide if at the top of the page
+			{
+				displayed = false;
+				$message.fadeOut(500);
+				return;
+			}
+			else if(displayed == false) // show if scrolling down
+			{
+				displayed = true;
+				$message.stop(true, true).show().click(function () { $message.fadeOut(500); });
+				$message.fadeOut(8000);
+				displayed = false;
+			}
+		}, 100);
+        });
+    });
+</script>
+<link type="text/css" href="http://www.comoves.unam.mx/css/numeros.css" rel="stylesheet" />
+        <link type="text/css" media="screen" rel="stylesheet" href="http://www.comoves.unam.mx/css/cbox/colorbox.css" />
+        <script type="text/javascript" src="http://www.comoves.unam.mx/js/jquery.colorbox-min.js"></script>
+        <script type="text/javascript" src="http://www.comoves.unam.mx/js/jquery.printElement.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                    $(".ajax").colorbox();
+                    $('#tam-chica').click( function(e) {
+                        e.preventDefault();
+                        var s = $('#contenido-central').css('font-size');
+                        s = parseInt(s.split('p')[0]);
+                        if(s > 10){
+                            s-=2;
+                        }
+                        s = s.toString() + 'px';
+                        $('#contenido-central').css('font-size', s);
+                        });
+                    $('#tam-grande').click( function(e) {
+                        e.preventDefault();
+                        var s = $('#contenido-central').css('font-size');
+                        s = parseInt(s.split('p')[0]);
+                        if(s < 25){
+                            s+=2;
+                        }
+                        s = s.toString() + 'px';
+                        $('#contenido-central').css('font-size', s);
+                        });
+                    $('#imprimir').click( function(e) {
+                        e.preventDefault();
+                        $('.texto').printElement({leaveOpen: true, printMode: 'popup'});
+                        });
+            });
+        </script>
+<script type="text/javascript">var switchTo5x=false;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "8bd281a2-16b0-4ff3-ae09-3f02eba96391"}); </script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2514304-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<div id="sttop"></div>
+<!-- Contenedor -->
+<div id="contenedor">
+<div class="header">
+<div id="top">    
+    <div id="top_UNAM"><a href="http://www.unam.mx/" title="Universidad Nacional Autónoma de México (UNAM)" target="_blank"><img width="140" height="51" alt="UNAM" src="http://www.comoves.unam.mx/assets/base/top_unam.png" /></a></div>
+    <div id="top_fecha">16 de febrero de 2020</div>
+    <div id="top_mapa_sitio"><a href="http://www.comoves.unam.mx/mapa">Mapa del sitio</a></div>
+    <div class="separador"> II </div>
+    <div id="top_contacto"><a href="http://www.comoves.unam.mx/contacto">Contacto</a></div>
+    <div class="separador"> II </div>
+    <div id="top_webmaster"><a href="http://www.comoves.unam.mx/webmaster">Webmaster</a></div>
+    <div id="top_buscador">
+        <form action="http://www.comoves.unam.mx/resultados" id="cse-search-box">
+        <div>
+        <input name="sa" src="http://www.comoves.unam.mx/assets/base/boton_buscar.jpg" alt="Buscar" type="image" id="img_buscar" />
+        <input type="hidden" name="cx" value="015157450102400306157:WMX-1874743140" />
+        <input type="hidden" name="cof" value="FORID:11" />
+        <input type="hidden" name="ie" value="UTF-8" />
+        <input type="text" name="q" size="23" id="txt_buscar" />
+        </div>
+        </form>
+    </div>
+</div>
+<div id="top_comoves"><img width="945" height="103" alt="¿Cómo ves?" src="http://www.comoves.unam.mx/assets/base/top_comoves.jpg" /></div>
+</div>
+<!-- Contenedor menus -->
+<div class="cont_menu">
+<!-- Menu principal -->
+    <div id="menu_principal">
+<ul><li ><a href="http://www.comoves.unam.mx/"><img width="21" height="10" alt="" src="http://www.comoves.unam.mx/assets/base/ojo.png" />   Inicio</a></li><li ><a href="http://www.comoves.unam.mx/secciones">Secciones fijas</a></li><li ><a href="http://www.comoves.unam.mx/tema">Índice temático</a></li><li  class="activo"><a href="http://www.comoves.unam.mx/numeros">Números anteriores</a></li><li ><a href="http://www.comoves.unam.mx/podcast">Podcast</a></li><li ><a href="http://www.comoves.unam.mx/enelaula">En el aula</a></li><li ><a href="http://www.comoves.unam.mx/suscribete">Suscríbete</a></li><li ><a href="http://www.comoves.unam.mx/somos">¿Quiénes somos?</a></li></ul>    </div>
+    <div id="submenu">
+
+    </div>
+<!-- Fin Menu principal -->
+</div>
+<!-- Fin Contenedor menus -->
+<div class="clearfloat"></div>
+<div class="central">
+<!-- Central -->
+<div class="coninfoprincipal">
+<!-- Información principal -->
+<div class="infoprincipal" >
+    <div id="migas"><a href="http://www.comoves.unam.mx/">Inicio</a> » <a href="http://www.comoves.unam.mx/numeros">Número </a> » <a href="http://www.comoves.unam.mx/numeros/indice/250">Índice 250</a> » Trastornos de ansiedad: la marca del miedo</div>
+    <div id="elementos_top">
+        <a href="#" title="Imprimir"><img id="imprimir" width="28" height="27" alt="imprimir" src="http://www.comoves.unam.mx/assets/base/imprimir.jpg" /></a><a href="http://www.comoves.unam.mx/assets/revista/250/trastornos-de-ansiedad-la-marca-del-miedo.pdf" title="PDF" target="_blank"><img width="28" height="27" alt="pdf" src="http://www.comoves.unam.mx/assets/base/pdf.jpg" /></a><a href="#" id="tam-chica" title="Menos"><img src="http://www.comoves.unam.mx/assets/base/a_menos.jpg" width="28" height="27" alt="menos" /></a><a href="#" id="tam-grande" title="Mas"><img src="http://www.comoves.unam.mx/assets/base/a_mas.jpg" width="28" height="27" alt="mas" /></a>    </div>
+    <div class="clearfloat"></div>
+    <div id="pleca_central"></div>
+    <div class="informacion"><div class="texto" id="contenido-central">
+    
+        <br />        <div id="social_share">
+    <span class='st_twitter'> </span>
+    <span class='st_facebook'> </span>
+    <!--<span class='st_googleplus'> </span>-->
+    <span class='st_linkedin'> </span>
+    <span class='st_email'> </span>
+    <span class='st_sharethis'> </span>
+    <span class='st_google_translate'> </span>
+</div>
+<div class="clearfloat"></div>        <div class="imagen_art">
+            <img src="http://www.comoves.unam.mx/assets/revista/250/trastornos-de-ansiedad-la-marca-del-miedo.jpg" width="300" height="400" alt="Trastornos de ansiedad: la marca del miedo" />
+            <div class="img_credito">Foto: Shutterstock</div>
+        </div>
+        <h1 class="tit_articulo">Trastornos de ansiedad: la marca del miedo</h1>
+        <p id="autor">Eduardo Thomas Téllez</p>
+        <p><strong>Sentirse atemorizado o aterrado es perfectamente normal en ciertas situaciones, como cuando nuestra vida est&aacute; en riesgo. Pero si no hay una amenaza que lo justifique podr&iacute;amos tener un trastorno emocional que es necesario atender.</strong></p>
+<p>Es lunes por la ma&ntilde;ana. Cuando Javier llega a la escuela ya alumbra el Sol y el bullicio habitual de sus compa&ntilde;eros le parece apagado y lejano. No busca a sus conocidos. Al pie de la escalera tiene un discreto mareo, como cuando sube un elevador. Siente los latidos del coraz&oacute;n y se apresura. El ba&ntilde;o m&aacute;s cercano est&aacute; en el siguiente nivel. Va lo m&aacute;s r&aacute;pido que puede. El barullo del entorno lo envuelve, pegajoso y asfixiante. Empuja con fuerza la puerta del ba&ntilde;o. No llega al excusado. En el primer lavabo, con s&oacute;lo un arqueo, la saliva deja lugar a un &aacute;cido amarillento que pasa como brasas por su garganta. Una vez enjuagada la boca siente alivio. A&uacute;n tembloroso, con falta de aire y opresi&oacute;n en el pecho, retoma la direcci&oacute;n de su sal&oacute;n; por su mente pasa fugaz el temor a morir o enloquecer. Se apresura nuevamente. Su examen de qu&iacute;mica empieza en 10 minutos.</p>
+<div class="cuadro_estilo">
+<p><strong>Trastorno de ansiedad social o fobia social<br> </strong>La ansiedad se produce ante la interacci&oacute;n social y situaciones que implican la posibilidad de ser examinado. Quien la sufre siente que puede ser reprobado, rechazado, avergonzado o humillado por los dem&aacute;s.</p>
+</div>
+<h2>Inquietudes</h2>
+<p>Cualquiera dir&iacute;a que Javier es &ldquo;nervioso&rdquo; y es normal que un examen dif&iacute;cil le provoque aprensi&oacute;n, v&oacute;mito y hasta diarrea. O que sentir un gran temor a hablar en p&uacute;blico, al grado de no poder articular palabra, es un problema menor aunque interfiera con el desarrollo escolar o laboral. Quien vive con inquietud en casi todas sus actividades, evitando el contacto con otras personas y saliendo lo menos posible de su casa, tambi&eacute;n podr&iacute;a pensar que eso es normal y justificar su aislamiento con la idea de que la gente es hostil, aburrida o tonta. Si es estudiante, se encerrar&aacute; en los libros o navegar&aacute; por horas en internet con tal de no ver a nadie. Pero esa inquietud llega a ser una importante limitaci&oacute;n en el desarrollo de capacidades personales; quien la sufre puede perder oportunidades de estudio &mdash;hay personas que por ese motivo han dejado opciones de posgrado en el extranjero&mdash;, de trabajo, de tener amistades y hasta de establecer relaciones amorosas.</p>
+<p>Ver llorar y sufrir a un ni&ntilde;o peque&ntilde;o al separarse de sus padres es bastante com&uacute;n, sobre todo en los primeros d&iacute;as de escuela. Observar esa reacci&oacute;n con intensidad claramente excesiva en un ni&ntilde;o mayor, y sobre todo en un adulto, es muy impresionante. Recuerdo haber visto a un hombre de unos 40 a&ntilde;os que berreaba sostenido por otras personas que trataban de impedir que cruzara hacia la zona de revisi&oacute;n en un aeropuerto. Del otro lado, su madre se desped&iacute;a de &eacute;l con una beat&iacute;fica sonrisa. Nadie pensar&iacute;a que eso es normal. Y tampoco lo que le sucedi&oacute; a Carlos, un adulto joven.</p>
+<p>Un d&iacute;a y de manera completamente inesperada &mdash;no hab&iacute;a ninguna molestia ni se&ntilde;al de que algo pudiera afectarlo y sin estar expuesto a ninguna circunstancia que pudiera explicar lo que sent&iacute;a&mdash;, Carlos tuvo lo que &eacute;l mismo llam&oacute; una &ldquo;crisis&rdquo;. Sinti&oacute; cierta inquietud en el cuerpo y luego le falt&oacute; el aire, ten&iacute;a que inspirar con fuerza y aun as&iacute; le parec&iacute;a que se ahogaba; al mismo tiempo su coraz&oacute;n palpitaba fuerte y acelerado. Mareo, temblor, sudor con oleadas de calor que alternaban con fr&iacute;o, una intensa sensaci&oacute;n de hormigueo en los labios y brazos&hellip; Como un rel&aacute;mpago le surgi&oacute; la idea de que se estaba muriendo. La crisis no dur&oacute; m&aacute;s de 30 minutos y en el hospital tras minuciosos estudios de laboratorio y un electrocardiograma, le aseguraron que estaba sano, que &ldquo;s&oacute;lo eran sus nervios&rdquo;.</p>
+<p>Las situaciones que hemos descrito pueden parecer muy distintas, unas m&aacute;s preocupantes e incapacitantes que otras, pero tienen algo en com&uacute;n: en todas hay un trastorno de ansiedad. Y no, no es normal sentirse as&iacute; y hay que buscar ayuda psiqui&aacute;trica cuanto antes.</p>
+<div class="cuadro_estilo">
+<p><strong>Trastorno de ansiedad por separaci&oacute;n<br> </strong>Se caracteriza por temor o ansiedad ante la separaci&oacute;n de aquellas personas por las que se siente apego en un grado inapropiado que limita el desarrollo. Hay un persistente miedo o ansiedad por los posibles da&ntilde;os que ellas pudieran sufrir, como una enfermedad, calamidades o muerte, o por las situaciones que las alejen en forma temporal o definitiva. Este trastorno es propio de la infancia, pero se puede manifestar tambi&eacute;n en la adolescencia y en la edad adulta.</p>
+<p><strong>Agorafobia<br> </strong>Las personas con este tipo de ansiedad se sienten temerosas ante dos o m&aacute;s de las siguientes situaciones: uso del transporte p&uacute;blico, estar en espacios tanto abiertos como cerrados, en una multitud, formados en fila, o estar solos fuera de casa. Temen estas situaciones debido a suponer que podr&iacute;an desarrollar s&iacute;ntomas similares a la crisis de p&aacute;nico u otros s&iacute;ntomas incapacitantes o humillantes en circunstancias en las que escapar ser&iacute;a dif&iacute;cil, o donde no podr&iacute;an disponer de ayuda. Dichas situaciones pueden ser toleradas si disponen de compa&ntilde;&iacute;a confiable.</p>
+</div>
+<h2>La necesidad del miedo</h2>
+<p>Ansiedad, angustia y miedo son pr&aacute;cticamente lo mismo, aunque algunos autores establecen diferencias a partir de la manera en que se manifiestan. Se dice que <em>ansiedad</em> son las manifestaciones f&iacute;sicas del temor y se considera una respuesta anticipada a una probable amenaza, y que <em>angustia</em> es el miedo sin una causa evidente que lo provoque.</p>
+<p>Todos hemos conocido el miedo, no hay quien no lo haya sentido. Podemos definirlo como una sensaci&oacute;n de peligro inminente y se acompa&ntilde;a de cambios f&iacute;sicos que nos preparan para la huida o la lucha. As&iacute;, el miedo es una respuesta adaptativa y su intensidad depende de la magnitud de la amenaza y el contexto en que se percibe. &iquest;C&oacute;mo pasamos de estar tranquilos, incluso muy relajados, a sentir miedo?</p>
+<p>La relajaci&oacute;n, una sensaci&oacute;n de placidez, se pierde ante un acontecimiento nimio en el entorno, un est&iacute;mulo que al principio es casi imperceptible pero que va llamando nuestra atenci&oacute;n y gener&aacute;ndonos estr&eacute;s; entonces el placer se torna en curiosidad. Si la curiosidad no es satisfecha se genera m&aacute;s tensi&oacute;n y el miedo se hace perceptible: un buen ejemplo es el ruido extra&ntilde;o en una noche oscura que contin&uacute;a sin que alcancemos a explicarlo. En cambio, el mundo conocido, familiar, cuyo funcionamiento se entiende, genera paz. Si lo conocemos a satisfacci&oacute;n no representa amenaza alguna.</p>
+<p>El miedo extremo, el terror, es consecuencia de una incertidumbre que presagia el m&aacute;ximo dolor ligado a la muerte, como le sucedi&oacute; a Carlos y en forma menos intensa a Javier, cuando sinti&oacute; fugazmente el miedo a morir. El terror o p&aacute;nico se manifiesta con la m&aacute;xima tensi&oacute;n f&iacute;sica y psicol&oacute;gica de que somos capaces, y puede llegar incluso a paralizarnos.</p>
+<p>Las funciones org&aacute;nicas que se modifican durante el miedo, como presi&oacute;n arterial, respiraci&oacute;n, frecuencia cardiaca, tensi&oacute;n muscular y movimiento del sistema digestivo, son aut&oacute;nomas; es decir, tienen un centro neurol&oacute;gico regulador autom&aacute;tico, no dependen de la voluntad del individuo. Ese centro es una regi&oacute;n cerebral llamada hipot&aacute;lamo, la cual tambi&eacute;n participa en el control de las emociones.</p>
+<p>Como sabemos que el miedo puede hacernos sufrir intensamente, tratamos de evitarlo o luchamos contra &eacute;l. De ah&iacute; que a veces se le considere una enfermedad, aunque sea un fen&oacute;meno natural. M&aacute;s todav&iacute;a, el miedo es indispensable para la supervivencia. Nos avisa de los peligros y nos da herramientas para protegernos. Sin miedo, en la selva o la ciudad, tendr&iacute;amos muy pocas posibilidades de sobrevivir. Pero el sufrimiento que produce difumina los l&iacute;mites entre salud y enfermedad. Cuando el miedo que se siente es desproporcionado, excesivo, para la situaci&oacute;n que lo produce, como en el caso de Javier, o no tiene causa aparente como le sucedi&oacute; a Carlos, estamos frente a un trastorno de ansiedad.</p>
+<div class="cuadro_estilo">
+<p><strong>Trastorno de p&aacute;nico o crisis de ansiedad<br> </strong>Se manifiesta por la aparici&oacute;n s&uacute;bita de s&iacute;ntomas de miedo, o malestares intensos relacionados con este que alcanzan su m&aacute;ximo nivel en cuesti&oacute;n de minutos. Son caracter&iacute;sticos la opresi&oacute;n del pecho y sensaci&oacute;n de falta de aire, palpitaciones, temblor y sudor, entre otros. La crisis de p&aacute;nico puede ser esperada, en respuesta a objetos o situaciones t&iacute;picamente temidas, o inesperada, cuando no hay raz&oacute;n aparente. Las crisis suelen ser recurrentes, y entre una y otra se produce una intranquilidad y preocupaci&oacute;n continua por tener nuevas crisis. Puede inducir cambios en el comportamiento que impiden la adaptaci&oacute;n natural, por ejemplo se evitan actividades como el ejercicio o cualquier situaci&oacute;n desconocida.</p>
+<p><strong>La fobia espec&iacute;fica<br> </strong>Es un miedo irracional a situaciones u objetos precisos, en consecuencia se les evita de manera persistente y desproporcionada. Hay varios tipos de fobias espec&iacute;ficas: por ejemplo, a las alturas, a ciertos animales, a la administraci&oacute;n de una inyecci&oacute;n o a ver sangre. Pero es posible desarrollar fobia a cualquier cosa.</p>
+</div>
+<h2>Control de emociones</h2>
+<p>Puesto que el miedo es una funci&oacute;n normal, contamos con un mecanismo fisiol&oacute;gico que lo regula. Para fines pr&aacute;cticos, lo podemos considerar como una alarma. Pero es una alarma muy especial, pues adem&aacute;s de que nos avisa del peligro, nos prepara autom&aacute;ticamente, sin la intervenci&oacute;n de nuestra voluntad o conciencia, para defendernos o huir. Esta alarma es un conjunto de circuitos neuronales: neuronas de diferentes estructuras anat&oacute;micas, como el hipocampo, la am&iacute;gdala, el hipot&aacute;lamo y la corteza cerebral, que se unen para cumplir su funci&oacute;n. Las neuronas son c&eacute;lulas especializadas, pero c&eacute;lulas al fin y por ello pueden enfermar o fallar de alguna manera, igual que cualquier organizaci&oacute;n biol&oacute;gica, dando lugar a diversos padecimientos, entre ellos los trastornos de ansiedad.</p>
+<p>Las distintas estructuras cerebrales que regulan las emociones humanas y sus manifestaciones fisiol&oacute;gicas, incluido el miedo, constituyen el llamado sistema l&iacute;mbico.</p>
+<p>Desde las primeras descripciones que se hicieron de este, hacia finales del siglo XIX y principios del XX, se pensaba que el hipot&aacute;lamo era el centro coordinador de las emociones. Su importancia es fundamental, pues ah&iacute; se modulan las respuestas f&iacute;sicas mediadas, sobre todo, por el sistema nervioso aut&oacute;nomo. Hoy se considera que la pieza central en el control de las emociones es la am&iacute;gdala. Esta recibe informaci&oacute;n de la corteza dorso-lateral, as&iacute; como del hipocampo, estructura clave en el funcionamiento de la memoria, e indispensable en la variaci&oacute;n de las emociones. A su vez, la am&iacute;gdala env&iacute;a informaci&oacute;n al hipot&aacute;lamo, corteza prefrontal y un sistema hormonal denominado <em>hipot&aacute;lamo-hip&oacute;fisis-corticosuprarrenal</em>.</p>
+<p>La diversidad de las respuestas emocionales del ser humano ha impedido su comprensi&oacute;n sistematizada. Ahora, despu&eacute;s de un siglo de investigaciones, el sistema l&iacute;mbico empieza a develar sus secretos. En buena medida su acci&oacute;n est&aacute; programada gen&eacute;ticamente, de ah&iacute; que algunos de sus trastornos se consideren hereditarios, o por lo menos producto de una fuerte carga gen&eacute;tica. Sin embargo, como la mayor&iacute;a de las funciones neuronales, el sistema l&iacute;mbico debe configurarse para funcionar en el ambiente f&iacute;sico, social y familiar de cada individuo, de manera que las experiencias del desarrollo temprano moldean nuestras respuestas emocionales. Como todo el sistema nervioso, esos circuitos tienen una gran plasticidad para adecuar su funci&oacute;n a diversas condiciones. Debido a que la evaluaci&oacute;n del ambiente y la toma de decisiones conscientes son un proceso largo, si s&oacute;lo dependi&eacute;ramos de ellas estar&iacute;amos expuestos a demasiados peligros. Imag&iacute;nate que para alejar la mano del fuego que la quema o para apartarnos del camino de un auto que est&aacute; a punto de embestirnos a toda velocidad hubiera que tomar la decisi&oacute;n consciente de hacerlo; nuestra reacci&oacute;n se tardar&iacute;a demasiado. Por ello la alarma y las primeras medidas para defendernos son autom&aacute;ticas; est&iacute;mulos sutiles, que no somos capaces de percibir conscientemente, pueden activar su funcionamiento de manera repentina, provocando adem&aacute;s asombro y temor.</p>
+<div class="cuadro_estilo">
+<p><strong>Mutismo selectivo<br> </strong>Consiste en la incapacidad de hablar cuando hay una expectativa social de hacerlo, por ejemplo en la escuela. Quien lo sufre habla sin problema en otras situaciones. Este bloqueo del lenguaje tiene consecuencias significativas en los logros acad&eacute;micos o laborales, o bien altera la comunicaci&oacute;n social normal. Los ni&ntilde;os con mutismo selectivo hablan en su casa en presencia de sus familiares inmediatos, pero a menudo no hablan ni siquiera ante sus amigos m&aacute;s cercanos o familiares de segundo grado, como abuelos o primos. El trastorno suele estar marcado por una elevada ansiedad social.</p>
+<p><strong>Trastorno de ansiedad generalizada<br> </strong>Sus caracter&iacute;sticas principales son ansiedad persistente y excesiva, centrada en aspectos como el trabajo o el rendimiento escolar, que se perciben dif&iacute;ciles de controlar. Adem&aacute;s, se experimentan s&iacute;ntomas f&iacute;sicos como inquietud o sensaci&oacute;n de excitaci&oacute;n, nerviosismo, fatiga, dificultad para concentrarse o mente en blanco, irritabilidad, tensi&oacute;n muscular y alteraciones del sue&ntilde;o.</p>
+</div>
+<h2>Plasticidad cerebral</h2>
+<p>La plasticidad con la que se configuran los circuitos que regulan el miedo da cuenta de c&oacute;mo las experiencias vividas durante las primeras etapas del desarrollo individual organizan modelos de reacci&oacute;n para enfrentar amenazas e incertidumbre a partir de la memoria y la imaginaci&oacute;n; esta &uacute;ltima podr&iacute;a entenderse como proyecciones de la memoria hacia el futuro. Por ejemplo, un ni&ntilde;o que fue golpeado por un maestro temer&aacute; encontrarse con otros maestros en el futuro imaginando que podr&iacute;a volver a sufrir una agresi&oacute;n a partir de su recuerdo.</p>
+<p>Recordar todos los detalles amenazantes y la infinidad de condiciones peligrosas que rodean a la fr&aacute;gil condici&oacute;n humana probablemente har&iacute;a imposible el funcionamiento de esos circuitos; pero condensando y amalgamando situaciones de peligro y condiciones de tranquilidad, se consolida un sistema de simbolizaci&oacute;n &mdash;la paloma que simboliza paz, o el color rojo que en cierto contexto simboliza peligro&mdash; que representa al mundo en elementos psicol&oacute;gicos y sus correspondientes emociones, haciendo manejable la incertidumbre que de otra manera ser&iacute;a intolerable. Por otro lado, aunque las primeras experiencias de la vida definen las bases con que empezaremos a enfrentar nuestra realidad, la plasticidad de las neuronas se mantiene y lo aprendido, en cierta medida, se puede modificar. Pasado el desarrollo inicial, acontecimientos traum&aacute;ticos en los que se ha expuesto la vida, por ejemplo, pueden provocar en el sistema de alarma una &ldquo;calibraci&oacute;n&rdquo; diferente, m&aacute;s sensible. As&iacute;, cambios repentinos que se viv&iacute;an habitualmente sin sobresalto se sienten como amenazas mayores y se produce un estado de alerta m&aacute;s intenso que facilita la ansiedad, y se evoca con frecuencia el suceso traum&aacute;tico que aparece incluso en sue&ntilde;os. Esta condici&oacute;n se considera un estado patol&oacute;gico por el sufrimiento que produce.</p>
+<p>En los circuitos que regulan el miedo se puede generar una funci&oacute;n an&oacute;mala por diversas causas, por ejemplo consumir sustancias t&oacute;xicas como coca&iacute;na y anfetaminas; por enfermedades sist&eacute;micas, como las metab&oacute;licas, las end&oacute;crinas y el c&aacute;ncer; y por padecimientos de origen gen&eacute;tico. Todas ellas alteran espec&iacute;ficamente los mecanismos &iacute;ntimos de las neuronas de dichos circuitos.</p>
+<h2>Los trastornos de ansiedad</h2>
+<p>No siempre es f&aacute;cil entender la ansiedad. Podemos considerarla como un s&iacute;ntoma semejante al dolor. Los dos est&aacute;n presentes en muchas enfermedades y representan una se&ntilde;al de alarma que requiere atenci&oacute;n inmediata. Pero identificar cu&aacute;ndo se trata de una afecci&oacute;n del sistema que regula la propia alarma entra&ntilde;a una especial dificultad. De hecho, no ha sido sino hasta muy recientemente que se consideran los trastornos de ansiedad como padecimientos en s&iacute; mismos. Podemos encontrar descripciones de ansiedad desde los textos hipocr&aacute;ticos de la Grecia cl&aacute;sica, pero durante muchos siglos se pens&oacute; que era algo que acompa&ntilde;aba a otras enfermedades. Es hasta 1952 cuando la Asociaci&oacute;n Psiqui&aacute;trica de Estados Unidos, en su manual de diagn&oacute;stico estad&iacute;stico (DSM-II), incluy&oacute; la categor&iacute;a <em>Neurosis de ansiedad</em>, que comprend&iacute;a pr&aacute;cticamente todas las formas de ansiedad. Hoy la investigaci&oacute;n cl&iacute;nica y el reciente desarrollo de las neurociencias permiten reconocer diferentes trastornos de ansiedad. (v&eacute;ase <em>&iquest;C&oacute;mo ves?</em> N&uacute;m. 220). El de Javier se conoce como <em>trastorno por estr&eacute;s agudo</em>, mientras que lo sucedido a Carlos fue un <em>ataque de p&aacute;nico o crisis de angustia</em>; la condici&oacute;n de una persona que se a&iacute;sla se llama fobia social, la de un adulto como el que berreaba en el aeropuerto es un trastorno de ansiedad por separaci&oacute;n, y la de una persona que enmudece cuando tiene que hablar en p&uacute;blico se llama <em>mutismo selectivo</em>.</p>
+<p>Una manera simple, aunque no definitiva, para determinar si la ansiedad requiere tratamiento consiste en observar el sufrimiento que sus manifestaciones producen y, sobre todo, si limitan o inhiben la capacidad para adaptarse al ambiente. Un diagn&oacute;stico m&aacute;s certero se logra aplicando los criterios de los manuales que para ese fin han elaborado la Organizaci&oacute;n Mundial de la Salud, el <em>ICD10</em>, y la Asociaci&oacute;n Psiqui&aacute;trica de Estados Unidos, el <em>DSM-V</em>.</p>
+<p>Los trastornos de ansiedad son la principal raz&oacute;n de consulta psiqui&aacute;trica en M&eacute;xico y el mundo, con cifras que en nuestro pa&iacute;s, de acuerdo con la Encuesta Nacional de Epidemiologia Psiqui&aacute;trica, alcanzan hasta 14 % de la poblaci&oacute;n adulta a lo largo de su vida. Lamentablemente hay quienes lo sufren hasta por nueve a&ntilde;os antes de buscar ayuda.</p>
+<h2>Tratamiento</h2>
+<p>Buena parte de los trastornos de ansiedad requieren una intervenci&oacute;n inmediata que contemple los aspectos biol&oacute;gicos, las influencias sociales y culturales (estas nos permiten entender los mecanismos que desencadenan el miedo), y los aspectos psicol&oacute;gicos (reacciones emocionales con las que cada quien enfrenta sus temores). Los medicamentos ansiol&iacute;ticos y los antidepresivos son herramientas muy efectivas en estos casos, pero adem&aacute;s es necesario echar mano de formas de psicoterapia espec&iacute;ficas para cada caso.</p>
+<p>Los ansiol&iacute;ticos son sustancias que act&uacute;an favoreciendo la acci&oacute;n de un neurotransmisor llamado &aacute;cido gama amino but&iacute;rico (gaba); este inhibe la sobre-excitaci&oacute;n de las neuronas que provocan los s&iacute;ntomas de ansiedad. Su actividad es r&aacute;pida; en pocos minutos puede controlar un ataque agudo de p&aacute;nico, pero no impide que vuelva a ocurrir. Los antidepresivos en cambio, aunque tardan de dos a tres semanas en empezar a tener efecto, pueden lograr, con un uso prolongado, que los s&iacute;ntomas no se repitan.</p>
+<p>La psicoterapia siempre est&aacute; indicada y su modalidad depende del tipo de trastorno de ansiedad del paciente. Por ejemplo, la desensibilizaci&oacute;n progresiva, que consiste en acercarse lenta y progresivamente al objeto que causa la angustia, es la m&aacute;s recomendada para la fobia espec&iacute;fica. En otros casos se recomienda la terapia cognitivo-conductual, en la que se exploran los procesos de pensamiento que puedan estar relacionados con el desarrollo de los s&iacute;ntomas.</p>
+<p>Es necesario tener siempre presente que el miedo forma parte normal de la vida y si bien es cierto que su funcionamiento puede alterarse y provocar sufrimiento, siempre hay forma de arreglarlo. Los trastornos de ansiedad pueden mejorarse mucho, e incluso curarse, con el tratamiento adecuado.</p>
+<div class="cuadro_estilo">
+<p><strong>Trastorno de ansiedad inducido por sustancias<br> </strong>Engloba la ansiedad debida al abuso, intoxicaci&oacute;n o retiro de sustancias o tratamientos m&eacute;dicos. Por ejemplo estimulantes como el caf&eacute;, las anfetaminas y la coca&iacute;na. Suprimir de manera repentina el uso de ansiol&iacute;ticos (tranquilizantes) y alcohol es tambi&eacute;n una causa frecuente de este trastorno.</p>
+<p><strong>Trastorno de ansiedad debido a una enfermedad m&eacute;dica<br> </strong>Los s&iacute;ntomas de ansiedad son la consecuencia fisiol&oacute;gica de una enfermedad m&eacute;dica, por ejemplo hiper o hipotiroidismo.</p>
+</div>
+<div class="cuadro_estilo">
+<p><strong>M&aacute;s informaci&oacute;n</strong></p>
+<ul>
+<li>Hern&aacute;ndez Pacheco, Manuel, <em>Apego y psicopatolog&iacute;a: la ansiedad y su origen,</em> Descl&eacute;e de Brouwer, Bilbao, 2018.</li>
+<li>Andreoli, Stefania, <em>&iquest;Qu&eacute; me est&aacute; pasando?: c&oacute;mo combatir la ansiedad de nuestros hijos en un mundo cada vez m&aacute;s estresante</em>, Grijalbo, Barcelona, 2017.</li>
+</ul>
+</div>
+<div class="dato_autor">
+<p>Eduardo Thomas es m&eacute;dico especialista en psiquiatr&iacute;a por la UNAM y el Hospital Espa&ntilde;ol de M&eacute;xico, certificado por el Consejo Mexicano de Psiquiatr&iacute;a. Es colaborador habitual de <em>&iquest;C&oacute;mo ves?</em></p>
+</div>    <div id="art_relacionados"><ul><li><a href="http://www.comoves.unam.mx/numeros/articulo/245/transexualidad-entre-el-estigma-y-el-acoso">Transexualidad. Entre el estigma y el acoso (No.245)</a></li><li><a href="http://www.comoves.unam.mx/numeros/articulo/231/robots-emocionales-la-empatia-de-las-maquinas">Robots emocionales: la empatía de las máquinas (No.231)</a></li><li><a href="http://www.comoves.unam.mx/numeros/articulo/219/radiografia-del-amor">Radiografía del amor (No.219)</a></li><li><a href="http://www.comoves.unam.mx/numeros/articulo/196/cerebro-y-emociones-podemos-elegir-que-sentir">Cerebro y emociones: ¿podemos elegir qué sentir? (No.196)</a></li><li><a href="http://www.comoves.unam.mx/numeros/articulo/164/el-camino-a-las-percepciones">El camino a las percepciones (No.164)</a></li></ul></div>
+</div></div>
+</div>
+<!-- Información principal fin -->
+</div>
+<!-- Barra derecha -->
+<div class="barra_derecha">
+    <!--
+    <div id="aldia">
+        <div class="tit_aldia"></div>
+        <div class="txt_aldia">
+            </div>
+    </div>
+    -->
+    <div id="edant">
+        <div class="tit_edant">En ediciones anteriores</div>
+        <div class="txt_edant" style="width: 214px; background: #222;">
+            <div id="container">
+                <div id="edanterior">
+                    <div id="slides">
+                        <div class="slides_container">
+                            <!-- Anteriores --><div class="slide">
+                        <a href="http://www.comoves.unam.mx/numeros/articulo/243/la-ciencia-de-la-deshonestidad" title="La ciencia de la deshonestidad">
+                            <img src="http://www.comoves.unam.mx/assets/revista/243/la-ciencia-de-la-deshonestidad.jpg" width="190" height="270" alt="Slide 1" />
+                        </a>
+                        <div class="caption" style="bottom:0">
+                            <p>La ciencia de la deshonestidad</p>
+                        </div>
+                    </div><div class="slide">
+                        <a href="http://www.comoves.unam.mx/numeros/articulo/219/radiografia-del-amor" title="Radiografía del amor">
+                            <img src="http://www.comoves.unam.mx/assets/revista/219/radiografia-del-amor.jpg" width="190" height="270" alt="Slide 2" />
+                        </a>
+                        <div class="caption" style="bottom:0">
+                            <p>Radiografía del amor</p>
+                        </div>
+                    </div><div class="slide">
+                        <a href="http://www.comoves.unam.mx/numeros/articulo/147/que-es-el-amor-respuestas-desde-la-biologia" title="¿Qué es el amor? Respuestas desde la biología*">
+                            <img src="http://www.comoves.unam.mx/assets/revista/147/que-es-el-amor-respuestas-desde-la-biologia.jpg" width="190" height="270" alt="Slide 3" />
+                        </a>
+                        <div class="caption" style="bottom:0">
+                            <p>¿Qué es el amor? Respuestas desde la biología*</p>
+                        </div>
+                    </div><!-- Anteriores fin -->                        </div>
+                        <a href="#" class="prev"><img src="http://www.comoves.unam.mx/js/slide/img/arrow-prev.png" width="10" height="40" alt="Arrow Prev" /></a>
+                        <a href="#" class="next"><img src="http://www.comoves.unam.mx/js/slide/img/arrow-next.png" width="10" height="40" alt="Arrow Next" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pub">
+        <div class="pleca_pub"></div>
+        <div class="tit_pub"></div>
+        <div class="txt_pub">
+            <p class="siguenos">
+                <a href="https://www.facebook.com/pages/Revista-C%C3%B3mo-ves/125801203373" target="_blank"><img width="32" height="32" alt="Facebook" src="http://www.comoves.unam.mx/assets/base/logo_facebook.jpg" /></a>                <a href="https://twitter.com/revistacomoves" target="_blank"><img width="32" height="32" alt="Twitter" src="http://www.comoves.unam.mx/assets/base/logo_twitter.jpg" /></a>                <!--<a href="https://plus.google.com/114255050606301129746/"  rel="publisher" target="_blank"><img width="32" height="32" alt="Google+" src="http://www.comoves.unam.mx/assets/base/logo_google+.jpg" /></a>-->
+                <a href="http://www.youtube.com/revistacomoves" target="_blank"><img width="32" height="32" alt="YouTube" src="http://www.comoves.unam.mx/assets/base/logo_youtube.jpg" /></a>            </p>
+        </div>
+    </div>
+
+    <div class="pub">
+
+      
+
+        <!--<a href="http://www.comoves.unam.mx/assets/pdf/programa-actividades-unam.pdf" target="_blank"><img src="http://www.comoves.unam.mx/assets/temp/banner-feria-guadalajara.jpg" alt="suscripción" width="214" height="298" border="0" /></a>
+
+        <img src="http://www.comoves.unam.mx/assets/temp/pleca_banners.jpg" alt="" width="214" height="19" />-->
+
+         <a href="http://www.comoves.unam.mx/numeros/aquiestamos/253" target=""><img src="http://www.comoves.unam.mx/assets/temp/banner-aquiestamos.jpg" alt="Convocatoria" width="214" height="108" border="0" /></a>
+		
+		<img src="http://www.comoves.unam.mx/assets/temp/pleca_banners.jpg" alt="" width="214" height="19" />
+		
+		<a href="#" target=""><img src="http://www.comoves.unam.mx/assets/temp/banner-suspension-mipeiper_web.jpg" alt="suscripción" width="214" height="298" border="0" /></a>
+		
+
+        <img src="http://www.comoves.unam.mx/assets/temp/pleca_banners.jpg" alt="" width="214" height="19" /> 
+
+        <a href="http://www.comoves.unam.mx/enelaula/antologias" target=""><img src="http://www.comoves.unam.mx/assets/temp/banner-antologias.jpg" alt="Antología" width="214" height="150" border="0" /></a>
+		
+
+				
+
+        <a href="http://www.youtube.com/revistacomoves" target="_blank"><img src="http://www.comoves.unam.mx/assets/temp/banner_comoves_youtube.jpg" alt="Nuestro canal en Youtube" width="214" height="116" /></a>
+        <img src="http://www.comoves.unam.mx/assets/temp/pleca_banners.jpg" alt="" width="214" height="19" />
+
+        <div class="pleca_promociones"></div>
+        <!-- Barra derecha <div class="tit_pub"></div> -->
+      <div class="txt_pub">
+            <a href="http://www.comoves.unam.mx/enelaula"><img src="http://www.comoves.unam.mx/assets/temp/promociones02.jpg" alt="promociones2" width="214" height="51" /></a>            <a href="http://www.comoves.unam.mx/promociones"><img src="http://www.comoves.unam.mx/assets/temp/promociones01.jpg" alt="promociones1" width="214" height="51" /></a>            <a href="http://www.comoves.unam.mx/promociones"><img src="http://www.comoves.unam.mx/assets/temp/promociones03.jpg" alt="promociones3" width="214" height="51" /></a><br />
+            <div> 
+              <!--<p><img src="http://www.comoves.unam.mx/assets/temp/banner_gertrudis.jpg" width="214" height="360" border="0" usemap="#Map"></p>-->
+            </div>
+
+
+        </div>
+        <img src="http://www.comoves.unam.mx/assets/temp/pleca_banners.jpg" alt="" width="214" height="19" />
+        <img src="http://www.comoves.unam.mx/assets/temp/pleca_banners.jpg" alt="" width="214" height="19" />
+        <a href="http://www.fundacionunam.org.mx/" target="_blank"><img src="http://www.comoves.unam.mx/assets/temp/banner-funam.jpg" alt="Evita el ciberbullying" width="214" height="298" border="0" /></a>
+        <img src="http://www.comoves.unam.mx/assets/temp/pleca_banners.jpg" alt="" width="214" height="19" />
+        <a href="https://issuu.com/medios_dgdc/docs/nautilus_dic_19___enero_20" target="_blank"><img src="http://www.comoves.unam.mx/assets/temp/nautilus_cv.jpg" alt="Nutilus" width="214" height="116" /></a>        <!--<img src="http://www.comoves.unam.mx/assets/temp/pleca_banners.jpg" alt="" width="214" height="19" />
+        <a href="http://www.comoves.unam.mx/"><a href="http://www.valor.unam.mx" target="_blank"><img src="http://www.dgdc.unam.mx/assets/temp/valor_unam/valor_unam_comoves.jpg" alt="Valor UNAM" width="214" height="116" /></a></a>-->
+        <img src="http://www.comoves.unam.mx/assets/temp/pleca_banners.jpg" alt="" width="214" height="19" />
+    </div>
+
+</div>
+<!-- Barra derecha fin -->
+<!-- Menú inferior -->
+<div class="cmenu_inferior">
+    <div class="menu_inferior">
+        <a href="http://www.comoves.unam.mx/info/directorio">Directorio</a> II
+        <a href="http://www.comoves.unam.mx/info/faq">Preguntas frecuentes</a> II
+        <a href="http://www.comoves.unam.mx/ligas">Ligas de interés</a> II
+        <a href="http://www.comoves.unam.mx/info/autores">Para autores</a> II
+        <a href="http://www.comoves.unam.mx/info/publicidad">Publicidad</a>    </div>
+</div>
+<!-- Menú inferior fin -->
+<div class="clearfloat"></div>
+<div class="pleca_footer"></div>
+</div>
+<!-- Fin central -->
+<!-- Pie de página -->
+<div class="footer">
+    <div id="footer-cont">
+        <div id="footer-logos">
+            <a href="http://www.unam.mx/" title="Universidad Nacional Autónoma de México (UNAM)" target="_blank"><img width="33" height="36" src="http://www.comoves.unam.mx/assets/base/unam_footer.png" alt="UNAM" /></a>
+            <a href="http://www.dgdc.unam.mx" target="_blank" ><img src="http://www.comoves.unam.mx/assets/base/dgdc_footer.png" width="114" height="36" alt="DGDC" /></a>
+        </div>
+        <div id="footer-derechos">
+            <p><a href="http://www.unam.mx/" title="Universidad Nacional Autónoma de México (UNAM)" target="_blank">Universidad Nacional Autónoma de México (UNAM)</a> <em>Revista <strong>¿Cómo ves?</strong></em><br />Hecho en México. Todos los derechos reservados 2020. Esta página puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica, de otra forma, requiere permiso previo por escrito de la institución. <a href="http://www.comoves.unam.mx/info/legales">Términos legales</a>. <a href="http://www.comoves.unam.mx/creditos">Créditos</a>.
+                <br />Sitio web administrado por: <a href="http://www.dgdc.unam.mx/" target="_blank" >Dirección General de Divulgación de la Ciencia</a>, <a href="mailto:contacto@dgdc.unam.mx">contacto@dgdc.unam.mx</a>&nbsp;</p>
+        </div>
+    </div>
+</div>
+<!-- Pie de página fin -->
+</div>
+<!-- Contenedor fin -->
+<div id="sttopmessage"><a href="#sttop">Subir</a></div>
+</body>
+</html>
